@@ -114,16 +114,18 @@ div h2:nth-child(even) {
 	padding-left: 10px;
 	padding-right: 10px;
 }
-.sub-title{
-	font-size: 23px;
-}
-	
+
 .row{
 	margin-right: 0px;
 	margin-left: 0px;
 }
 
-
+@media (max-width: 300px) {
+.sub-title{
+	font-size: 1.4rem;
+}
+	
+	}
 /* //////////////////////////////////
 				SECCION 1
 //////////////////////////////////// */
