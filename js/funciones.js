@@ -1,14 +1,4 @@
 
-$(window).scroll(function() {
-  	var scrollTop = $(window).scrollTop();
-  	if ( scrollTop > 100) {
-        $("#menu").addClass("bg-dark");  
-
-    } else {
-        $("#menu").removeClass("bg-dark" );
-    }
-
-});
 
 $( document ).ready(function() {
     $(".menu_curriculum").click(function() {
