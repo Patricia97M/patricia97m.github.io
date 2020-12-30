@@ -293,7 +293,7 @@ a i{
 	font-size: .9rem;
 	color: white;
 }
-input{
+.form-control::value{
 	color: #444444;
 }
 
