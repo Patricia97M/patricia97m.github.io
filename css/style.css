@@ -43,11 +43,11 @@ section {
 .enunciado {
 	color:#ffff; 
 	font-family: 'Titillium Web', sans-serif;
-    text-transform: uppercase; 
-    text-align: center;
-    letter-spacing: 5px;
-    -webkit-text-stroke-width: 2px;
-    padding-bottom: 40px;  
+	text-transform: uppercase; 
+	text-align: center;
+	letter-spacing: 5px;
+	-webkit-text-stroke-width: 2px;
+	padding-bottom: 40px;  
 }
 
 
@@ -108,24 +108,24 @@ div h2:nth-child(even) {
 }
 @media (max-width: 600px) {
 
- #capa{
-	width: 100%;
-	padding-top: 25%;
-	padding-left: 10px;
-	padding-right: 10px;
+	 #capa{
+		width: 100%;
+		padding-top: 25%;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.row{
+		margin-right: 0px;
+		margin-left: 0px;
+	}
 }
 
-.row{
-	margin-right: 0px;
-	margin-left: 0px;
-}
-}
 @media (max-width: 300px) {
-.sub-title{
-	font-size: 1.3rem;
-}
-	
+	.sub-title{
+		font-size: 1.3rem;
 	}
+}
 /* //////////////////////////////////
 				SECCION 1
 //////////////////////////////////// */
@@ -198,18 +198,17 @@ div h2:nth-child(even) {
 }
 .div-text{
 	position: absolute;
-    bottom:  0;
-    padding: 20px;
-    width: 100%;
-    background: rgba(0,0,0,0.4);
-    color: #fff;
+	bottom:  0;
+	padding: 20px;
+	width: 100%;
+	background: rgba(0,0,0,0.4);
+	color: #fff;
    	justify-content: center;
 	align-items: center;
-    transform: translateY(100%); /*box-shadow: 5px 5px 10px 0 rgba(76, 110, 245, .1);*/
+    	transform: translateY(100%); /*box-shadow: 5px 5px 10px 0 rgba(76, 110, 245, .1);*/
   	transition: all 0.5s ease-out;
   	
 }
-
 
 .contenedor:hover .div-text {
 	display: flex;
@@ -291,7 +290,7 @@ a i{
 	margin-bottom: 19px;
 	padding: 20px;
 	font-size: .9rem;
-	color: white;
+	color: #444;
 }
 
 .copyright{
