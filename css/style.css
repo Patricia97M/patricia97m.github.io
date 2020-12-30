@@ -89,7 +89,6 @@ div h2:nth-child(even) {
 	border-radius: 20px;
 	background:rgba(106, 8, 41, 0.5);
 	padding: 0.5em 0.5em;
-	
 }
 
 @media (min-width: 100px) and (max-width: 767px) {
@@ -114,18 +113,12 @@ div h2:nth-child(even) {
 	padding-left: 10px;
 	padding-right: 10px;
 }
-
 .row{
 	margin-right: 0px;
 	margin-left: 0px;
 }
 
-@media (max-width: 300px) {
-.sub-title{
-	font-size: 1.3rem;
-}
-	
-	}
+
 /* //////////////////////////////////
 				SECCION 1
 //////////////////////////////////// */
@@ -291,7 +284,7 @@ a i{
 	margin-bottom: 19px;
 	padding: 20px;
 	font-size: .9rem;
-	color: #444444;
+	color: white;
 }
 
 .copyright{
