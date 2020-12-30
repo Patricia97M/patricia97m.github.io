@@ -268,7 +268,10 @@ div h2:nth-child(even) {
 /* //////////////////////////////////
 				FOOTER
 //////////////////////////////////// */
-
+#contactame{
+	color:#fff;
+	}
+	
 .datos{
 	padding-left: 20px;
 	font-size: 0.9em;
@@ -291,9 +294,6 @@ a i{
 	margin-bottom: 19px;
 	padding: 20px;
 	font-size: .9rem;
-	color: white;
-}
-.form-control::value{
 	color: #444444;
 }
 
